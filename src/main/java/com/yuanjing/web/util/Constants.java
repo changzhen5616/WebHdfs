@@ -5,20 +5,20 @@ import org.apache.hadoop.conf.Configuration;
 /**
  * @author Poseidon
  * @date 2019/6/6 10:58
- * @descrition 全局常量
+ * @descrition 鑾峰彇configuration
  */
 public class Constants {
 
-    //NAMENODEG1节点rpc地址
+    //NAMENODEG1 RPC 鍦板潃
     public static String RPCNODE1 = "192.168.16.6:8020";
 
-    //NAMENODEG1节点rpc地址
+    //NAMENODEG1 RPC 鍦板潃
     public static String RPCNODE2 = "192.168.16.5:8020";
 
-    //HDFS根目录
+    //HDFS
     public static  String HDFSPATH = "/webhdfs/yuanjing";
 
-    //defaultFS 缺省配置
+    //defaultFS
     public static String  DEFAUTFS = "hdfs://bmr-cluster";
 
     //DFs Nameservices
@@ -32,7 +32,7 @@ public class Constants {
 
 
     /**
-     *  获取 Hadoop Configuration对象
+     *  Hadoop Configuration
      * @return Configuration
      */
     public static Configuration   getConfiguration() {
