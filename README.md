@@ -1,2 +1,2 @@
 # WebHdfs
-read image or vedio from HDFS by web
+Read image or vedio from HDFS by web
